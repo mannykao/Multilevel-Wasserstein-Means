@@ -2,6 +2,8 @@
 
 This is a Python 2 implementation of MWM and MWMS algorithms of Multilevel Clustering via Wasserstein Means (N. Ho, X. Nguyen, M. Yurochkin, H. Bui, V. Huynh, D. Phung); plus implementation of Algorithms 1, 2 and 3 of Fast Computation of Wasserstein Barycenters (M. Cuturi, A. Doucet). Code written by Mikhail Yurochkin.
 
+mck 3/2/2023 - I converted the code to python 3 and updated the scikit-learn API changes to KMeans to remove warnings.
+
 ## Overview
 
 First compile Cython code in cython_cuturi folder. Install Anaconda and run (on Ubuntu):
